@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-size: cover;
+}
+
+header{
+    background-color: #EECDAB;
+    height: 5em;
+}
+
+img{
+
+/* margin-left: 20px; */
+    margin-left: 5%;
+    margin-top: 16px;
+}
+
+.head-tag{
+    float: right;
+    margin-right: 55px;
+    margin-top: 33px;
+}
+
+.head-tag a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: rgba(56, 40, 27, 0.911);
+    border: 2px solid rgb(221, 160, 109);
+    padding: 8px;
+    margin-right: 8px;
+}
+
+.head-tag a:hover{
+    background-color: rgb(158, 94, 83);
+    color: white;
+    transition: 0.5s ease-in-out;
+}
+
+.sidebar{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(90, 45, 19);
+    padding: 100px;
+}
+
+.sidebar li{
+    list-style: square;
+    margin-bottom: 5px;
+}
+
+/* Form Starts */
+
+.login{
+    float: right;
+    border: 2px solid rgb(90, 45, 19);
+    background-color: rgba(247, 142, 94, 0.651);
+    height: 15em;
+    margin-top: 5%;
+    margin-right: 2%;
+    padding: 30px;
+}
+
+.login h2{
+    text-align: center;
+}
+
+.login input{
+    height: 1.5em;
+}
+
+
+.login #login-button{
+    width: 100%;
+    height: 1.8em;
+    color: white;
+    background-color: dodgerblue;
+    border: 1px solid dodgerblue;
+}
+
+/* P-box_container */
+.container{
+    margin-top: 7%;
+    margin-left: 3%;
+}
+
+.p-box{
+    border: 3px solid white;
+    width: 22%;
+    float: left;
+    margin-left: 10px;
+    height: 15em;
+    padding: 5px;
+    background-color: #cccccc;
+}
+
+.p-box h3{
+    text-align: center;
+}
+
+.p-box p{
+    line-height: i.25em;
+    text-align: justify;
+    word-spacing: 1px;
+}
+
+.p-box a{
+    text-decoration: none;
+    color: red;
+}
+
+/* Footer */
+
+footer{
+    background-color: black;
+    color: white;
+    height: 1.5em;
+    margin-top: 25%;
+}
+
+footer h3{
+    text-align: center;
+    
+}
+
